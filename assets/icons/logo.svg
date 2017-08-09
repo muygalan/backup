@@ -13,8 +13,8 @@
     </defs>
     <g id="logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Combined-Shape">
-            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="{{ site.baseurl }}/#path-1"></use>
-            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="{{ site.baseurl }}/#path-1"></use>
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
         </g>
     </g>
 </svg>

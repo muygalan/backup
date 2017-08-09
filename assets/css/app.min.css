@@ -177,7 +177,7 @@ a {
     background: -o-linear-gradient(0deg, #3cd5ff, #007aff);
     background: -moz-linear-gradient(0deg, #3cd5ff, #007aff);
     background: linear-gradient(100deg, #3cd5ff, #007aff);
-    background-image: url('/assets/img/main-cover-1.jpg');
+    background-image: url('../img/main-cover-1.jpg');
     background-size: cover;
 }
 .banner-theme-pink {

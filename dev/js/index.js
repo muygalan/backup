@@ -137,9 +137,9 @@ $(document).ready(function(){
 
         for(var i = current - limit; i<current; i++) { 
             if(i>0 && i!==1) {
-                link_html += '<a href="{{ site.baseurl }}/' + baseUrl + 'page' + i + '" class="page-link page-num">' + i + '</a>';
+                link_html += '<a href="' + baseUrl + 'page' + i + '" class="page-link page-num">' + i + '</a>';
             }else if(i===1) {
-                link_html += '<a href="{{ site.baseurl }}/' + baseUrl + '" class="page-link page-num">' + i + '</a>';
+                link_html += '<a href="' + baseUrl + '" class="page-link page-num">' + i + '</a>';
             }
         }
 
@@ -147,7 +147,7 @@ $(document).ready(function(){
 
         for(var j = current + 1; j<=current + limit; j++) { 
             if(j<=total) {
-                link_html += '<a href="{{ site.baseurl }}/' + baseUrl + 'page' + j + '" class="page-link page-num">' + j + '</a>';
+                link_html += '<a href="' + baseUrl + 'page' + j + '" class="page-link page-num">' + j + '</a>';
             }
         }
         
@@ -198,7 +198,7 @@ $(document).ready(function(){
 
                 var k = title + tags;
                 if(keywords !== '' && k.toLowerCase().indexOf(keywords) >= 0) {
-                    html += '<a class="search_item" href="{{ site.baseurl }}/' + item.url + '">' + item.title + '</a>';
+                    html += '<a class="search_item" href="' + item.url + '">' + item.title + '</a>';
                 }
             }
             $('.search_result').html(html);
