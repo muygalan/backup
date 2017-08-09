@@ -13,22 +13,4 @@ tags: temp
 
 ### Sample Heading
 
-There is a **bunch** of stuff I could write here. I mean, the possibilities are _endless._ I have come a long way in hacking through this ~~Chinese-based~~ theme for Jekyll. I managed to add my own custom header, avatar, main page **heading title**, and now (hopefully) add a new post. Heck, I even added an external Dragon Ball Super header image for shits-and-giggles. Yep!
-
-遵循 [HTML5](https://www.w3.org/TR/html5/grouping-content.html#the-pre-element) 标准，Prism 使用语义化的 `<pre>` 元素和 `<code>` 元素来标记代码区块：
-
-```
-<pre><code class="language-css">p { color: red }</code></pre>
-```
-
-在Markdown中你可以这样写：
-
-```
- ```css
-	p { color: red }
- ```
-```
-
-支持语言：
-
-What have where **here**?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
